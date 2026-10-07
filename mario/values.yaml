@@ -1,6 +1,6 @@
 mario:
   deploymentName: deployment-mario
   image: vijaygiduthuri/mario:latest
-  replicas: 2
+  replicas: 3
   serviceName: mario-service
   type: LoadBalancer
